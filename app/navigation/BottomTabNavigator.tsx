@@ -30,6 +30,7 @@ export const BottomTabNavigator = () => {
         },
         tabBarActiveTintColor: colors.darkGray,
         tabBarInactiveTintColor: colors.gray,
+        tabBarHideOnKeyboard: true,
       }}>
       <Tab.Screen
         options={{

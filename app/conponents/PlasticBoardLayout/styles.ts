@@ -5,7 +5,6 @@ export const CTR: ViewStyle = {
   marginLeft: 0,
   marginRight: 0,
   marginTop: 0,
-  paddingHorizontal: 40,
 }
 export const LINEAR_GRADIENT: ViewStyle = {
   flex: 1,

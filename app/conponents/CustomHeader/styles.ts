@@ -1,14 +1,12 @@
 import {colors} from '../../../assets/colors'
-import {TextStyle, ViewStyle} from 'react-native'
+import {Platform, TextStyle, ViewStyle} from 'react-native'
 import {fonts} from '../../constants/fonts'
 
-export const NOTIF_CTR = {
-  width: 40,
-  height: 40,
-  backgroundColor: colors.white,
-  borderRadius: 14,
-  alignItems: 'center',
-  justifyContent: 'center',
+export const CTR: ViewStyle = {
+  flexDirection: 'row',
+  justifyContent: 'space-between',
+  paddingTop: Platform.OS === 'ios' ? 10 : 20,
+  paddingHorizontal: 40,
 }
 export const LINEAR_GRAD_CTR: ViewStyle = {
   flexDirection: 'row',

@@ -9,7 +9,7 @@ import * as S from './styles.ts'
 export const HomeScreen: FC = () => {
   return (
     <PlasticBoardLayout>
-      <>
+      <View style={{paddingHorizontal: 40}}>
         <DaysExpRiddles
           iconName={'home_1'}
           iconWidth={193}
@@ -79,7 +79,7 @@ export const HomeScreen: FC = () => {
           isImage={true}
           isIconBottom={true}
         />
-      </>
+      </View>
     </PlasticBoardLayout>
   )
 }

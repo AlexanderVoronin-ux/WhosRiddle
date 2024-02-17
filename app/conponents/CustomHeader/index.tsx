@@ -7,12 +7,7 @@ import * as S from './styles.ts'
 
 export const CustomHeader = () => {
   return (
-    <View
-      style={{
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        paddingTop: 10,
-      }}>
+    <View style={S.CTR}>
       <LinearGradient
         style={S.LINEAR_GRAD_CTR}
         useAngle={true}
